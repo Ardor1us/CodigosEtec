@@ -1,0 +1,92 @@
+body.primeiro {
+    
+    font-family:arial;
+    background-color: lightgray;
+
+}
+
+body.segundo {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #f4f4f4;
+
+}
+body.terceiro {
+        background-color: lightgrey;
+        background-image: url(autoreditado.jpg);
+        background-repeat: no-repeat;
+}
+
+h1{
+    color: black;
+    font-family: arial;
+   
+  
+}
+
+h2{
+    font-family: arial;
+    margin-left: 10%;
+    color: black;
+    background-image: url('musica.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color:black;
+    text-align: center;
+    
+    
+ }
+
+ ul{
+    margin-left: 2%; 
+ }
+
+ iframe.video {
+        position: relative;
+    
+ }
+ header {
+    background: #333;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+}
+nav {
+    background: #444;
+    color: #fff;
+    padding: 0.5em 0;
+    text-align: center;
+}
+nav a {
+    color: #fff;
+    margin: 0 1em;
+    text-decoration: none;
+}
+nav a:hover {
+    text-decoration: underline;
+}
+.content {
+    padding: 2em;
+}
+
+.musicas iframe {
+    flex: 1 1 calc(50% - 1em);
+    max-width: 100%;
+}
+@media (max-width: 600px) {
+    .video-container iframe {
+        flex: 1 1 100%;
+    }
+}
+.Caracteriticas iframe {
+    flex: 1 1 calc(50% - 1em);
+    max-width: 100%;
+}
+ 
